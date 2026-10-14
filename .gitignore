@@ -1,0 +1,21 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+
+# Keep the example configuration in version control
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage and local tooling
+.coverage
+htmlcov/
+.vscode/
+.idea/
